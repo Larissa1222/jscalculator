@@ -1,0 +1,66 @@
+body {
+	font-family: Gothan Rounded, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 400px;
+	height: 500px;
+	margin: 30px 0 30px 0;
+
+	background-color: #b0ffc0;
+	color: lightslategrey;
+	text-align: center;
+}
+.container > .buttons{
+	display: grid;
+	grid-template-columns: repeat(2, 130px);
+	grid-template-rows: repeat(3, 50px);
+	width: auto;
+	height: auto;
+}
+.container > .buttons > .big-btn{
+	grid-column: span 2;
+}
+button {
+	background-color: #67d07c;
+	border: 0;
+	font-family: Gothan Rounded, sans-serif;
+	font-weight: normal;
+	margin: 2px;
+}
+
+input {
+	border: none;
+	font-family: Gothan Rounded, sans-serif;
+	font-weight: normal;
+	
+	text-align: center;
+	width: 80%;
+}
+
+p, h1 {
+	color: white;
+	width: 90%;
+}
+
+button:hover {
+	background-color: #3bbf55;
+	color: white;
+	cursor: pointer;
+}
+
+button:active {
+	background-color: #2f9844;
+}
+
+button:focus, input:focus {
+	outline:none;
+}
