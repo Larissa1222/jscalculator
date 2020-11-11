@@ -1,6 +1,6 @@
 ## Calculadora
 
-> * Homework proposto nas aulas de FrontEnd da [Heroway] desenvolvido com JavaScript, HTML5 e CSS3*
+> *Homework proposto nas aulas de FrontEnd da [Heroway] desenvolvido com JavaScript, HTML5 e CSS3*
 
 ![Final result](calculator.png)
 
